@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
 }
-.main {
+body {
     font-family: var(--font);
     width: 100vw;
     height: auto;
@@ -36,24 +36,26 @@
     margin: 15px auto;
     border-radius: 12px;
 }
+/* Nesting for reducing lines code */
 .text{
     padding: 0 25px;
     text-align: center;
     font-weight: 400;
-}
-h2{
-    color: var(--text);
-    margin: 10px 0px 20px 0px;
-    font-weight: 700;
-}
-p{
-    color: var(--subtext);
+    h2{
+        color: var(--text);
+        margin: 10px 0px 20px 0px;
+        font-weight: 700;
+    }
+    p{
+        color: var(--subtext);
+    }
 }
 
+/* Footer, it's outside the project*/
 .attribution { 
     font-size: 18px;
     text-align: center;
-}
-.attribution a {
+    a {
     color: hsl(228, 45%, 44%);
+}
 }
